@@ -16,6 +16,8 @@ Clone this repo, then in a shell or command prompt:
 ```shell
 pip3 install -r requirements.txt
 ```
+**Currently does not run on Synology, but you can connect to one using --host**
+
 
 ### Usage:
 container2cli.py [--host <_host ip:port>_] [--compose | --cli] <_container name_> ...
